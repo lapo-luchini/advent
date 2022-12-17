@@ -1,4 +1,4 @@
-// this is my first Go program ever
+// this is my second Go program ever
 package main
 import (
     "bufio"
@@ -16,7 +16,7 @@ func search(message string) int {
         }
         match = match + string(letter)
         fmt.Println(i, match)
-        if (len(match) == 4) {
+        if (len(match) == 14) {
             return i + 1
         }
     }
