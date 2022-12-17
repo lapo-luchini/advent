@@ -1,3 +1,4 @@
+// this is my first Rust program ever
 use std::{io, io::prelude::*};
 fn main() {
     let mut num: i32 = 0;
