@@ -2,8 +2,8 @@ class Tree(val height: Int, var visible: Boolean)
 object Tree {
   def fromChar(c: Char) = new Tree(c.asDigit, false)
 }
-object Scala08 {
-  def watch(line: Array[Tree]): Unit = {
+object Scala08a {
+  def watch(line: List[Tree]): Unit = {
     var max = -1
     for (t <- line) {
       if (t.height > max) {
@@ -13,8 +13,7 @@ object Scala08 {
     }
   }
   def main(args: Array[String]) {
-    val map = io.Source.stdin.getLines.map(_.toCharArray.map(Tree.fromChar(_))).toArray
-    var visible = 0
+    val map = io.Source.stdin.getLines.map(_.toCharArray.map(Tree.fromChar(_)).toList).toList
     for (line <- map) {
       watch(line)
       watch(line.reverse)
