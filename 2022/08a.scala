@@ -1,8 +1,8 @@
-class Tree(val height: Int, var visible: Boolean)
-object Tree {
-  def fromChar(c: Char) = new Tree(c.asDigit, false)
-}
 object Scala08a {
+  class Tree(val height: Int, var visible: Boolean)
+  object Tree {
+    def fromChar(c: Char) = new Tree(c.asDigit, false)
+  }
   def watch(line: List[Tree]): Unit = {
     var max = -1
     for (t <- line) {
