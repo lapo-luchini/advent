@@ -22,25 +22,41 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2J2UujLqBr4NZMvgls8DhypS3LI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/deck/w/advent&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;6&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Scala01a.executor": "Run",
+    "Application.Scala08a.executor": "Run",
+    "Application.Scala2023_01a.executor": "Run",
+    "Application.Scala2023_01b.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/deck/w/advent/2023",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "scala_project_settings_configurable.last_selected_tab_index": "6",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
-  <component name="RunManager" selected="Application.Scala08a">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Scala05a">
     <configuration name="Scala01a" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Scala01a" />
       <module name="advent" />
@@ -50,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala05a" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Scala05a" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Scala05a" />
       <module name="advent" />
       <option name="REDIRECT_INPUT" value="true" />
@@ -86,14 +102,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scala2023_01a" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Scala2023_01a" />
+      <module name="advent" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/2023/01.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala2023_01b" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Scala2023_01b" />
+      <module name="advent" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/2023/01.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scala2023_01b" />
+        <item itemvalue="Application.Scala2023_01a" />
+        <item itemvalue="Application.Scala01a" />
         <item itemvalue="Application.Scala08a" />
         <item itemvalue="Application.Scala08b" />
-        <item itemvalue="Application.Scala01a" />
-        <item itemvalue="Application.Scala05a" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-8336523bb0d9-3a399477" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -1,0 +1,4 @@
+^.idea
+^out$
+^git-
+^mirror_to_github[.]sh$
