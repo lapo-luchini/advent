@@ -2,19 +2,19 @@
 
 function iter(a) {
     let b = [];
-    for (let e of a) {
-        if (e === 0) {
+    for (const n of a) {
+        if (n === 0) {
             b.push(1);
             continue;
         }
-        let s = '' + e;
+        let s = '' + n;
         let l = s.length;
         if ((l & 1) == 0) {
             l /= 2;
             b.push(+s.slice(0, l));
             b.push(+s.slice(-l));
         } else
-            b.push(2024 * s);
+            b.push(2024 * n);
     }
     return b;
 }
